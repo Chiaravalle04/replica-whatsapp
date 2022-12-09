@@ -1,0 +1,177 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Scroll Bar */
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+/* background: #f1f1f1; */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #555;
+}
+
+/* Regole Generali */
+:root {
+    --main-color: #121b22;
+    --second-color: #1f2c34;
+    --icon-color: #aebbc3;
+}
+
+.flex {
+    display: flex;
+}
+
+.ai-center {
+    align-items: center;
+}
+
+.jc-center {
+    justify-content: center;
+}
+
+.jc-space-b {
+    justify-content: space-between;
+}
+
+.jc-space-a {
+    justify-content: space-around;
+}
+
+main {
+    padding: 10px;
+    background-color: var(--main-color);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+i {
+    color: var(--icon-color);
+}
+
+.main-container {
+    height: 70px;
+    padding: 5px 20px;
+    background-color: var(--second-color);
+}
+
+/* Aside */
+aside {
+    width: 30%;
+    height: calc(100vh - 20px);
+}
+
+.profile {
+    width: 50px;
+    height: 50px;
+}
+
+.profile img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.people-chat {
+    height: calc(100vh - 140px);
+    overflow: auto;
+}
+
+.nav-aside ul li a {
+    padding: 5px 10px;
+}
+
+.ul-aside {
+    gap: 5px;
+}
+
+.search-bar {
+    height: 50px;
+    padding: 5px 20px;
+    background-color: var(--main-color);
+}
+
+.search-chat {
+    width: 10%;
+    padding: 9px;
+    color: #fff;
+    border: none;
+    background-color: #1f2c34;
+    border-radius: 10px 0 0 10px;
+    cursor: pointer;
+}
+
+input[type="search"] {
+    width: 80%;
+    padding: 9px;
+    border: none;
+    color: #fff;
+    margin-left: -5px;
+    background-color: #1f2c34;
+    border-radius: 0 10px 10px 0;
+}
+
+input[type="search"]:focus {
+    outline: none;
+}
+
+.search-bar > a {
+    margin-left: 25px;
+}
+
+.chat {
+    height: 80px;
+    background-color: var(--main-color);
+    border-bottom: 2px solid var(--icon-color);
+    margin-left: 20px;
+}
+
+/* Chat Container */
+.chat-container {
+    width: 70%;
+    height: calc(100vh - 20px);
+    overflow: auto;
+}
+
+.main-chat {
+    height: calc(100vh - 160px);
+    overflow: auto;
+}
+
+/* Debug */
+
+/* Aside */
+
+
+
+
+
+
+
+
+/* Chat Container */
+.chat-container {
+    background-color: yellowgreen;
+}
