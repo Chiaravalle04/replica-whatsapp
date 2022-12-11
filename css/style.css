@@ -187,7 +187,7 @@ aside {
 .search-chat {
     width: 10%;
     padding: 9px;
-    color: #fff;
+    color: var(--icon-color);
     border: none;
     background-color: #1f2c34;
     border-radius: 10px 0 0 10px;
@@ -198,7 +198,7 @@ input[type="search"] {
     width: 80%;
     padding: 9px;
     border: none;
-    color: #fff;
+    color: var(--icon-color);
     margin-left: -5px;
     background-color: #1f2c34;
     border-radius: 0 10px 10px 0;

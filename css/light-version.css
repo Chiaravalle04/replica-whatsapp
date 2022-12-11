@@ -204,7 +204,7 @@ input[type="search"] {
     width: 80%;
     padding: 9px;
     border: none;
-    color: #fff;
+    color: var(--icon-color);
     margin-left: -5px;
     background-color: var(--second-color);
     border-radius: 0 10px 10px 0;
