@@ -63,6 +63,10 @@
     text-align: end;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 main {
     padding: 10px;
     background-image: url('../img/bg-light-version.png');
@@ -258,6 +262,7 @@ input[type="search"]:focus {
     display: inline-block;
     width: 20px;
     height: 20px;
+    color: var(--text-chat-color);
     font-size: 13px;
     font-weight: bold;
     line-height: 20px;
